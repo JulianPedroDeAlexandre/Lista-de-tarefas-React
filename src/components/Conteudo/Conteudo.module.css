@@ -1,0 +1,27 @@
+.item {
+    background: white;
+    padding: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s;
+    color: #777;
+
+}
+
+.feito {
+    background: #eeeeee;
+    text-decoration: line-through;
+    color: #777;
+}
+
+.item {
+  transition: 0.2s ease;
+}
+
+.item:hover {
+  transform: scale(1.02);
+  background: #f7f7f7;
+}
