@@ -1,5 +1,5 @@
 .item {
-    background: white;
+    background: #eee;
     padding: 16px;
     margin-bottom: 16px;
     text-align: center;
@@ -8,11 +8,10 @@
     user-select: none;
     transition: 0.2s;
     color: #777;
-
 }
 
 .feito {
-    background: #eeeeee;
+    background: #9c3030;
     text-decoration: line-through;
     color: #777;
 }
@@ -23,5 +22,5 @@
 
 .item:hover {
   transform: scale(1.02);
-  background: #f7f7f7;
+  background: #9c9c9c;
 }

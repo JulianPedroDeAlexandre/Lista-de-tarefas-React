@@ -1,9 +1,11 @@
 
 .container{
-    background: linear-gradient(45deg, #cb356b, #bd3f32);
-    color: white;
+    background: linear-gradient(45deg, #121212, #333);
+    color: #eee;
     padding: 32px;
     width: 60vw;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    margin: 5px;
 }
 
 .nome{
