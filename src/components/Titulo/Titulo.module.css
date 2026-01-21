@@ -9,15 +9,29 @@
 }
 
 .nome{
-    font-size: 50px;
+    font-size: 35px;
     margin: 0;
     margin-top: 24px;
     text-align: center;
 }
 
 .data{
-    font-size: 20pt;
+    font-size: 25px;
     margin-top: 8px;
     opacity: 0.95;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 80vw;
+    }
+
+    .nome{
+        font-size: 20px;
+    }
+
+    .data{
+        font-size: 17px;
+    }
 }

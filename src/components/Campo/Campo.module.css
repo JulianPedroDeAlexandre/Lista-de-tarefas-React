@@ -4,6 +4,12 @@
     margin: 24px 5px;
     width: 60vw;
     border-radius: 6px;
-    box-shadow: 0 0 10px rgba(255,255,255,0.1);
-    
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 80vw;
+    }
 }
